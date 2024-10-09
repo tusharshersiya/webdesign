@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: "montserrat";
+
+}
+.outer {
+    background-color: aquamarine;
+    height: 550px;
+    width: 450px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 50px 20px;
+
+}
+
+.outer h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(143, 91, 12);
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.outer .username {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 26px;
+    border: none;
+    padding-left: 10px;
+}
+
+.outer .userpassword {
+    display: block;
+    width: 100%;
+    margin-bottom: 70px;
+    height: 26px;
+    border: none;
+    padding-left: 10px;
+
+}
+
+.outer button {
+    width: 120px;
+    height: 26px;
+    border: none;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
